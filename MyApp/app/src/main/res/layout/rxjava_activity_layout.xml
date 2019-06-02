@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.AppCompat"
+    android:orientation="vertical"
+    tools:context=".activity.TabLayoutActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:onClick="clickPull"
+        android:text="RxJava之点击开启无条件轮询"
+        tools:ignore="OnClick" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#faf"
+        android:id="@+id/tx1"
+        android:background="#e2e6"
+        android:minHeight="30dp"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxJava之网络请求嵌套回调-点击激活与登录"
+        android:onClick="registerAndLogin"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:text="RxJava 之获取缓存"
+        android:onClick="getCache"/>
+
+
+
+
+
+</LinearLayout>

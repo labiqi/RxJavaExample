@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/high_finance_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/high_finance_background_item2"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="高端理财" />
+
+        <TextView
+            android:id="@+id/high_finance_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@id/high_finance_icon"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#3b3f53"
+            android:text="金太极"/>
+
+        <ImageView
+            android:layout_width="11dp"
+            android:layout_height="7dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginTop="6dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/high_finance_arrow"
+            android:src="@drawable/icon_more"
+            />
+
+        <TextView
+            android:id="@+id/high_finance_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/high_finance_icon"
+            android:layout_below="@id/high_finance_name"
+            android:textSize="12sp"
+            android:textColor="#929ead"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="方正证券股份有限公司"/>
+        <TextView
+            android:id="@+id/high_finance_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/high_finance_icon"
+            android:layout_below="@id/high_finance_company"
+            android:layout_marginBottom="16dp"
+            android:textSize="11sp"
+            android:textColor="#67778b"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="固定收益类"/>
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0.5dp"-->
+            <!--android:layout_below="@id/high_finance_type"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="#e5e9ef"-->
+            <!--/>-->
+    </RelativeLayout>
+</LinearLayout>
+
+

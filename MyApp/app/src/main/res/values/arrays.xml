@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in LoginActivityService salesDepartmentSpinner
+    <string-array name="sales_departmemt">
+        <item>营业部1</item>
+        <item>营业部2</item>
+        <item>营业部3</item>
+        <item>营业部4</item>
+        <item>营业部5</item>
+        <item>营业部6</item>
+    </string-array>
+-->
+    
+    <!-- Used in LoginActivityService accountTypeSpinner
+    <string-array name="account_types">
+        <item>资金账号</item>
+        <item>银行账号</item>
+    </string-array>
+-->
+    <!-- Used in App/SearchInvoke.java -->
+    
+    <!-- Used in app/menu examples -->
+    <string-array name="cp_idtype">
+        <item>身份证</item>
+        <item>军官证</item>
+        <item>护照</item>
+        <item>户口簿</item>
+        <item>回乡证</item>
+        <item>其他证件</item>
+    </string-array>
+    <string-array name="crh_img_source">        
+     	<item>拍照</item>  
+     	<item>相册</item>          
+  	</string-array>
+
+    <!-- 智能投顾 -->
+    <array name="zntg_yield_chart_tabs_days">
+        <item>累计</item>
+        <item>一年</item>
+        <item>六个月</item>
+        <item>近三月</item>
+    </array>
+
+    <array name="my_strategy_tabs">
+        <item>最近操作建议</item>
+        <item>策略持仓</item>
+    </array>
+
+    <array name="my_asset_tabs">
+        <item>最近操作建议</item>
+        <item>持仓产品</item>
+    </array>
+
+    <array name="zntg_asset_config_tabs">
+        <item>投资方案</item>
+        <item>历史收益</item>
+    </array>
+
+    <array name="robo_advisor_home_tabs">
+        <item>智能组合</item>
+        <item>我的组合</item>
+        <item> 更多 </item>
+    </array>
+
+    <array name="zntg_merchandiser">
+        <item>限价委托</item>
+        <item>市价委托</item>
+    </array>
+
+    <array name="entrust_status">
+        <item>0-未报</item>
+        <item>1-待报</item>
+        <item>2-已报</item>
+        <item>3-已报待撤</item>
+        <item>4-部成待撤</item>
+        <item>5-部撤</item>
+        <item>6-已撤</item>
+        <item>7-部成</item>
+        <item>8-已成</item>
+        <item>9-废单</item>
+        <item>C-正报</item>
+        <item>D-撤废</item>
+        <item>G-单腿成交</item>
+        <item>S-已报待改</item>
+        <item>T-部成待改</item>
+        <item>U-已确认待撤</item>
+        <item>V-已确认</item>
+        <item>W-待确认</item>
+        <item>X-预成交</item>
+        <item>Y-购回待确认</item>
+        <item>Z-已购回</item>
+    </array>
+
+    <array name="co_my_co_list_tabs">
+        <item>监控中</item>
+        <item>当日触发</item>
+        <item>历史记录</item>
+    </array>
+
+    <array name="co_pcd">
+        <item>0:上涨</item>
+        <item>1:下跌</item>
+    </array>
+
+    <array name="co_entrust_bs">
+        <item>1:买入</item>
+        <item>2:卖出</item>
+    </array>
+
+    <array name="co_pane">
+        <item>5:买五</item>
+        <item>4:买四</item>
+        <item>3:买三</item>
+        <item>2:买二</item>
+        <item>1:买一</item>
+        <!--<item>-1:卖一</item>-->
+        <!--<item>-2:卖二</item>-->
+        <!--<item>-3:卖三</item>-->
+        <!--<item>-4:卖四</item>-->
+        <!--<item>-5:卖五</item>-->
+    </array>
+
+    <array name="co_timing_pane">
+        <item>5:买五</item>
+        <item>4:买四</item>
+        <item>3:买三</item>
+        <item>2:买二</item>
+        <item>1:买一</item>
+        <item>-1:卖一</item>
+        <item>-2:卖二</item>
+        <item>-3:卖三</item>
+        <item>-4:卖四</item>
+        <item>-5:卖五</item>
+    </array>
+
+    <array name="co_gear">
+        <item>委托档位</item>
+        <item>限价委托</item>
+        <item>市价委托</item>
+    </array>
+    <array name="co_timing_gear">
+        <item>委托档位</item>
+        <item>定价委托</item>
+        <item>市价委托</item>
+    </array>
+    <array name="co_gear_limit">
+        <item>0.01:1%</item>
+        <item>0.02:2%</item>
+        <item>0.03:3%</item>
+        <item>0.04:4%</item>
+        <item>0.05:5%</item>
+    </array>
+    <array name="co_gear_market_sh">
+        <item>U:五档即成剩撤</item>
+        <item>R:五档即成转限价</item>
+    </array>
+    <array name="co_gear_market_sz">
+        <item>U:五档即成剩撤</item>
+        <item>T:即时成交剩余撤销</item>
+        <item>V:全额成交或撤销</item>
+    </array>
+
+    <array name="co_expiry_date">
+        <item>1天</item>
+        <item>5天</item>
+        <item>15天</item>
+        <item>30天</item>
+        <item>自定义</item>
+    </array>
+</resources>
